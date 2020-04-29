@@ -2,301 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b2bbbc8-b80c-4abd-acf8-4f12f67b33e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware01-shard-jdbc/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ware01-shard-jdbc/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware01-shard-jdbc/src/main/java/com/shard/jdbc/ShardJdbcApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware01-shard-jdbc/src/main/java/com/shard/jdbc/ShardJdbcApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware01-shard-jdbc/src/main/java/com/shard/jdbc/config/DataSourceAlg.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware01-shard-jdbc/src/main/java/com/shard/jdbc/config/DataSourceAlg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware01-shard-jdbc/src/main/java/com/shard/jdbc/config/ShardJdbcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware01-shard-jdbc/src/main/java/com/shard/jdbc/config/ShardJdbcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware01-shard-jdbc/src/main/java/com/shard/jdbc/config/TableOneAlg.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware01-shard-jdbc/src/main/java/com/shard/jdbc/config/TableOneAlg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware01-shard-jdbc/src/main/java/com/shard/jdbc/config/TableTwoAlg.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware01-shard-jdbc/src/main/java/com/shard/jdbc/config/TableTwoAlg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware01-shard-jdbc/src/main/java/com/shard/jdbc/controller/ShardController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware01-shard-jdbc/src/main/java/com/shard/jdbc/controller/ShardController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware01-shard-jdbc/src/main/java/com/shard/jdbc/entity/TableOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware01-shard-jdbc/src/main/java/com/shard/jdbc/entity/TableOne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware01-shard-jdbc/src/main/java/com/shard/jdbc/entity/TableOneExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware01-shard-jdbc/src/main/java/com/shard/jdbc/entity/TableOneExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware01-shard-jdbc/src/main/java/com/shard/jdbc/entity/TableThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware01-shard-jdbc/src/main/java/com/shard/jdbc/entity/TableThree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware01-shard-jdbc/src/main/java/com/shard/jdbc/entity/TableThreeExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware01-shard-jdbc/src/main/java/com/shard/jdbc/entity/TableThreeExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware01-shard-jdbc/src/main/java/com/shard/jdbc/entity/TableTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware01-shard-jdbc/src/main/java/com/shard/jdbc/entity/TableTwo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware01-shard-jdbc/src/main/java/com/shard/jdbc/entity/TableTwoExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware01-shard-jdbc/src/main/java/com/shard/jdbc/entity/TableTwoExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware01-shard-jdbc/src/main/java/com/shard/jdbc/mapper/TableOneMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware01-shard-jdbc/src/main/java/com/shard/jdbc/mapper/TableOneMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware01-shard-jdbc/src/main/java/com/shard/jdbc/mapper/TableThreeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware01-shard-jdbc/src/main/java/com/shard/jdbc/mapper/TableThreeMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware01-shard-jdbc/src/main/java/com/shard/jdbc/mapper/TableTwoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware01-shard-jdbc/src/main/java/com/shard/jdbc/mapper/TableTwoMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware01-shard-jdbc/src/main/java/com/shard/jdbc/service/ShardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware01-shard-jdbc/src/main/java/com/shard/jdbc/service/ShardService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware01-shard-jdbc/src/main/java/com/shard/jdbc/service/impl/ShardServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware01-shard-jdbc/src/main/java/com/shard/jdbc/service/impl/ShardServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware01-shard-jdbc/src/main/java/com/shard/jdbc/utils/HashUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware01-shard-jdbc/src/main/java/com/shard/jdbc/utils/HashUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware01-shard-jdbc/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ware01-shard-jdbc/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware01-shard-jdbc/src/main/resources/application-test.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ware01-shard-jdbc/src/main/resources/application-test.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware01-shard-jdbc/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ware01-shard-jdbc/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware01-shard-jdbc/src/main/resources/mybatis/mapper/TableOneMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ware01-shard-jdbc/src/main/resources/mybatis/mapper/TableOneMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware01-shard-jdbc/src/main/resources/mybatis/mapper/TableThreeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ware01-shard-jdbc/src/main/resources/mybatis/mapper/TableThreeMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware01-shard-jdbc/src/main/resources/mybatis/mapper/TableTwoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ware01-shard-jdbc/src/main/resources/mybatis/mapper/TableTwoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware01-shard-jdbc/src/main/resources/mybatis/mybatis.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ware01-shard-jdbc/src/main/resources/mybatis/mybatis.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware01-shard-jdbc/src/main/resources/shard-jdbc.sql" beforeDir="false" afterPath="$PROJECT_DIR$/ware01-shard-jdbc/src/main/resources/shard-jdbc.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware02-email-send/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ware02-email-send/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware02-email-send/src/main/java/com/email/send/EmailApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware02-email-send/src/main/java/com/email/send/EmailApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware02-email-send/src/main/java/com/email/send/controller/EmailController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware02-email-send/src/main/java/com/email/send/controller/EmailController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware02-email-send/src/main/java/com/email/send/model/SendEmailModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware02-email-send/src/main/java/com/email/send/model/SendEmailModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware02-email-send/src/main/java/com/email/send/param/BodyType.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware02-email-send/src/main/java/com/email/send/param/BodyType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware02-email-send/src/main/java/com/email/send/param/EmailParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware02-email-send/src/main/java/com/email/send/param/EmailParam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware02-email-send/src/main/java/com/email/send/param/EmailType.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware02-email-send/src/main/java/com/email/send/param/EmailType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware02-email-send/src/main/java/com/email/send/service/EmailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware02-email-send/src/main/java/com/email/send/service/EmailService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware02-email-send/src/main/java/com/email/send/service/impl/EmailServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware02-email-send/src/main/java/com/email/send/service/impl/EmailServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware02-email-send/src/main/java/com/email/send/util/EmailUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware02-email-send/src/main/java/com/email/send/util/EmailUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware02-email-send/src/main/java/com/email/send/util/TaskPoolConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware02-email-send/src/main/java/com/email/send/util/TaskPoolConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware02-email-send/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ware02-email-send/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware03-rocket-queue/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ware03-rocket-queue/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware03-rocket-queue/src/main/java/com/rocket/queue/RocketApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware03-rocket-queue/src/main/java/com/rocket/queue/RocketApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware03-rocket-queue/src/main/java/com/rocket/queue/controller/RocketController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware03-rocket-queue/src/main/java/com/rocket/queue/controller/RocketController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware03-rocket-queue/src/main/java/com/rocket/queue/rocket/ConsumerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware03-rocket-queue/src/main/java/com/rocket/queue/rocket/ConsumerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware03-rocket-queue/src/main/java/com/rocket/queue/rocket/ProducerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware03-rocket-queue/src/main/java/com/rocket/queue/rocket/ProducerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware03-rocket-queue/src/main/java/com/rocket/queue/rocket/RocketMsgListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware03-rocket-queue/src/main/java/com/rocket/queue/rocket/RocketMsgListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware03-rocket-queue/src/main/java/com/rocket/queue/service/RocketMqService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware03-rocket-queue/src/main/java/com/rocket/queue/service/RocketMqService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware03-rocket-queue/src/main/java/com/rocket/queue/service/impl/ParamConfigService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware03-rocket-queue/src/main/java/com/rocket/queue/service/impl/ParamConfigService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware03-rocket-queue/src/main/java/com/rocket/queue/service/impl/RocketMqServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware03-rocket-queue/src/main/java/com/rocket/queue/service/impl/RocketMqServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware03-rocket-queue/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ware03-rocket-queue/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware03-rocket-queue/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ware03-rocket-queue/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware04-swagger-two/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ware04-swagger-two/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware04-swagger-two/src/main/java/com/swagger/two/SwaggerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware04-swagger-two/src/main/java/com/swagger/two/SwaggerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware04-swagger-two/src/main/java/com/swagger/two/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware04-swagger-two/src/main/java/com/swagger/two/config/SwaggerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware04-swagger-two/src/main/java/com/swagger/two/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware04-swagger-two/src/main/java/com/swagger/two/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware04-swagger-two/src/main/java/com/swagger/two/entity/JsonResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware04-swagger-two/src/main/java/com/swagger/two/entity/JsonResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware04-swagger-two/src/main/java/com/swagger/two/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware04-swagger-two/src/main/java/com/swagger/two/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware04-swagger-two/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ware04-swagger-two/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware05-quart-job/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ware05-quart-job/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware05-quart-job/src/main/java/com/quart/job/QuartJobApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware05-quart-job/src/main/java/com/quart/job/QuartJobApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware05-quart-job/src/main/java/com/quart/job/config/DruidConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware05-quart-job/src/main/java/com/quart/job/config/DruidConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware05-quart-job/src/main/java/com/quart/job/config/ScheduleConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware05-quart-job/src/main/java/com/quart/job/config/ScheduleConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware05-quart-job/src/main/java/com/quart/job/controller/ScheduleJobWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware05-quart-job/src/main/java/com/quart/job/controller/ScheduleJobWeb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware05-quart-job/src/main/java/com/quart/job/entity/ScheduleJobBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware05-quart-job/src/main/java/com/quart/job/entity/ScheduleJobBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware05-quart-job/src/main/java/com/quart/job/entity/ScheduleJobExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware05-quart-job/src/main/java/com/quart/job/entity/ScheduleJobExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware05-quart-job/src/main/java/com/quart/job/entity/ScheduleJobLogBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware05-quart-job/src/main/java/com/quart/job/entity/ScheduleJobLogBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware05-quart-job/src/main/java/com/quart/job/entity/ScheduleJobLogExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware05-quart-job/src/main/java/com/quart/job/entity/ScheduleJobLogExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware05-quart-job/src/main/java/com/quart/job/mapper/ScheduleJobLogMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware05-quart-job/src/main/java/com/quart/job/mapper/ScheduleJobLogMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware05-quart-job/src/main/java/com/quart/job/mapper/ScheduleJobMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware05-quart-job/src/main/java/com/quart/job/mapper/ScheduleJobMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware05-quart-job/src/main/java/com/quart/job/service/ScheduleJobLogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware05-quart-job/src/main/java/com/quart/job/service/ScheduleJobLogService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware05-quart-job/src/main/java/com/quart/job/service/ScheduleJobService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware05-quart-job/src/main/java/com/quart/job/service/ScheduleJobService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware05-quart-job/src/main/java/com/quart/job/service/impl/ScheduleJobLogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware05-quart-job/src/main/java/com/quart/job/service/impl/ScheduleJobLogServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware05-quart-job/src/main/java/com/quart/job/service/impl/ScheduleJobServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware05-quart-job/src/main/java/com/quart/job/service/impl/ScheduleJobServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware05-quart-job/src/main/java/com/quart/job/task/GetTimeTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware05-quart-job/src/main/java/com/quart/job/task/GetTimeTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware05-quart-job/src/main/java/com/quart/job/task/TaskService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware05-quart-job/src/main/java/com/quart/job/task/TaskService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware05-quart-job/src/main/java/com/quart/job/utils/ScheduleUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware05-quart-job/src/main/java/com/quart/job/utils/ScheduleUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware05-quart-job/src/main/java/com/quart/job/utils/SpringContextUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware05-quart-job/src/main/java/com/quart/job/utils/SpringContextUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware05-quart-job/src/main/java/com/quart/job/utils/TaskJobLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware05-quart-job/src/main/java/com/quart/job/utils/TaskJobLog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware05-quart-job/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ware05-quart-job/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware05-quart-job/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ware05-quart-job/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware05-quart-job/src/main/resources/mybatis/mapper/ScheduleJobLogMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ware05-quart-job/src/main/resources/mybatis/mapper/ScheduleJobLogMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware05-quart-job/src/main/resources/mybatis/mapper/ScheduleJobMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ware05-quart-job/src/main/resources/mybatis/mapper/ScheduleJobMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware05-quart-job/src/main/resources/mybatis/mybatis.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ware05-quart-job/src/main/resources/mybatis/mybatis.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware05-quart-job/src/main/resources/quart-job.sql" beforeDir="false" afterPath="$PROJECT_DIR$/ware05-quart-job/src/main/resources/quart-job.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware06-redis-cluster/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ware06-redis-cluster/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware06-redis-cluster/src/main/java/com/redis/cluster/RedisApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware06-redis-cluster/src/main/java/com/redis/cluster/RedisApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware06-redis-cluster/src/main/java/com/redis/cluster/config/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware06-redis-cluster/src/main/java/com/redis/cluster/config/RedisConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware06-redis-cluster/src/main/java/com/redis/cluster/config/RedisLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware06-redis-cluster/src/main/java/com/redis/cluster/config/RedisLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware06-redis-cluster/src/main/java/com/redis/cluster/config/RedisParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware06-redis-cluster/src/main/java/com/redis/cluster/config/RedisParam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware06-redis-cluster/src/main/java/com/redis/cluster/config/RedisPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware06-redis-cluster/src/main/java/com/redis/cluster/config/RedisPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware06-redis-cluster/src/main/java/com/redis/cluster/controller/MsgBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware06-redis-cluster/src/main/java/com/redis/cluster/controller/MsgBody.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware06-redis-cluster/src/main/java/com/redis/cluster/controller/RedisController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware06-redis-cluster/src/main/java/com/redis/cluster/controller/RedisController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware06-redis-cluster/src/main/java/com/redis/cluster/listen/LogAListen.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware06-redis-cluster/src/main/java/com/redis/cluster/listen/LogAListen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware06-redis-cluster/src/main/java/com/redis/cluster/listen/RedisHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware06-redis-cluster/src/main/java/com/redis/cluster/listen/RedisHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware06-redis-cluster/src/main/java/com/redis/cluster/listen/RedisListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware06-redis-cluster/src/main/java/com/redis/cluster/listen/RedisListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware06-redis-cluster/src/main/java/com/redis/cluster/service/RedisService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware06-redis-cluster/src/main/java/com/redis/cluster/service/RedisService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware06-redis-cluster/src/main/java/com/redis/cluster/service/impl/RedisServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware06-redis-cluster/src/main/java/com/redis/cluster/service/impl/RedisServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware06-redis-cluster/src/main/java/com/redis/cluster/utils/SpringUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware06-redis-cluster/src/main/java/com/redis/cluster/utils/SpringUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware06-redis-cluster/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ware06-redis-cluster/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware06-redis-cluster/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ware06-redis-cluster/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware07-dubbo-parent/block-dubbo-common/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware07-dubbo-parent/block-dubbo-common/src/main/java/com/boot/common/DubboService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware07-dubbo-parent/block-dubbo-common/src/main/java/com/boot/common/UserEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware07-dubbo-parent/block-dubbo-common/src/main/java/com/boot/common/VersionService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware07-dubbo-parent/block-dubbo-consume/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware07-dubbo-parent/block-dubbo-consume/src/main/java/com/boot/consume/ConsumeApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware07-dubbo-parent/block-dubbo-consume/src/main/java/com/boot/consume/controller/DubboController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware07-dubbo-parent/block-dubbo-consume/src/main/java/com/boot/consume/service/ConsumeService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware07-dubbo-parent/block-dubbo-consume/src/main/java/com/boot/consume/service/VersionServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware07-dubbo-parent/block-dubbo-consume/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware07-dubbo-parent/block-dubbo-provider/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware07-dubbo-parent/block-dubbo-provider/src/main/java/com/boot/consume/ProviderApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware07-dubbo-parent/block-dubbo-provider/src/main/java/com/boot/consume/service/DubboServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware07-dubbo-parent/block-dubbo-provider/src/main/java/com/boot/consume/service/VersionOneImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware07-dubbo-parent/block-dubbo-provider/src/main/java/com/boot/consume/service/VersionTwoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware07-dubbo-parent/block-dubbo-provider/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware07-dubbo-parent/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware08-elastic-search/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ware08-elastic-search/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware08-elastic-search/src/main/java/com/elastic/search/ElasticApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware08-elastic-search/src/main/java/com/elastic/search/ElasticApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware08-elastic-search/src/main/java/com/elastic/search/controller/RequestLogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware08-elastic-search/src/main/java/com/elastic/search/controller/RequestLogController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware08-elastic-search/src/main/java/com/elastic/search/model/RequestLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware08-elastic-search/src/main/java/com/elastic/search/model/RequestLog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware08-elastic-search/src/main/java/com/elastic/search/repository/RequestLogRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware08-elastic-search/src/main/java/com/elastic/search/repository/RequestLogRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware08-elastic-search/src/main/java/com/elastic/search/service/RequestLogService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware08-elastic-search/src/main/java/com/elastic/search/service/RequestLogService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware08-elastic-search/src/main/java/com/elastic/search/service/impl/RequestLogServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware08-elastic-search/src/main/java/com/elastic/search/service/impl/RequestLogServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware08-elastic-search/src/main/java/com/elastic/search/util/DateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware08-elastic-search/src/main/java/com/elastic/search/util/DateUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware08-elastic-search/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ware08-elastic-search/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware09-jwt-token/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ware09-jwt-token/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware09-jwt-token/src/main/java/com/jwt/token/JwtApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware09-jwt-token/src/main/java/com/jwt/token/JwtApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware09-jwt-token/src/main/java/com/jwt/token/config/JwtConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware09-jwt-token/src/main/java/com/jwt/token/config/JwtConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware09-jwt-token/src/main/java/com/jwt/token/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware09-jwt-token/src/main/java/com/jwt/token/config/WebConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware09-jwt-token/src/main/java/com/jwt/token/controller/TokenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware09-jwt-token/src/main/java/com/jwt/token/controller/TokenController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware09-jwt-token/src/main/java/com/jwt/token/interceptor/TokenInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware09-jwt-token/src/main/java/com/jwt/token/interceptor/TokenInterceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware09-jwt-token/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ware09-jwt-token/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware10-fast-dfs/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ware10-fast-dfs/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware10-fast-dfs/src/main/java/com/fast/dfs/DFSApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware10-fast-dfs/src/main/java/com/fast/dfs/DFSApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware10-fast-dfs/src/main/java/com/fast/dfs/config/DfsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware10-fast-dfs/src/main/java/com/fast/dfs/config/DfsConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware10-fast-dfs/src/main/java/com/fast/dfs/config/FileDfsUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware10-fast-dfs/src/main/java/com/fast/dfs/config/FileDfsUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware10-fast-dfs/src/main/java/com/fast/dfs/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware10-fast-dfs/src/main/java/com/fast/dfs/config/SwaggerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware10-fast-dfs/src/main/java/com/fast/dfs/controller/FileController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware10-fast-dfs/src/main/java/com/fast/dfs/controller/FileController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware10-fast-dfs/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ware10-fast-dfs/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware11-shiro-auth/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ware11-shiro-auth/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware11-shiro-auth/src/main/java/com/boot/shiro/ShiroApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware11-shiro-auth/src/main/java/com/boot/shiro/ShiroApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware11-shiro-auth/src/main/java/com/boot/shiro/config/DruidConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware11-shiro-auth/src/main/java/com/boot/shiro/config/DruidConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware11-shiro-auth/src/main/java/com/boot/shiro/config/ShiroConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware11-shiro-auth/src/main/java/com/boot/shiro/config/ShiroConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware11-shiro-auth/src/main/java/com/boot/shiro/config/ShiroException.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware11-shiro-auth/src/main/java/com/boot/shiro/config/ShiroException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware11-shiro-auth/src/main/java/com/boot/shiro/config/UserRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware11-shiro-auth/src/main/java/com/boot/shiro/config/UserRealm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware11-shiro-auth/src/main/java/com/boot/shiro/controller/ShiroController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware11-shiro-auth/src/main/java/com/boot/shiro/controller/ShiroController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware11-shiro-auth/src/main/java/com/boot/shiro/entity/SysMenuEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware11-shiro-auth/src/main/java/com/boot/shiro/entity/SysMenuEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware11-shiro-auth/src/main/java/com/boot/shiro/entity/SysUserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware11-shiro-auth/src/main/java/com/boot/shiro/entity/SysUserEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware11-shiro-auth/src/main/java/com/boot/shiro/mapper/SysMenuMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware11-shiro-auth/src/main/java/com/boot/shiro/mapper/SysMenuMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware11-shiro-auth/src/main/java/com/boot/shiro/mapper/SysUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware11-shiro-auth/src/main/java/com/boot/shiro/mapper/SysUserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware11-shiro-auth/src/main/java/com/boot/shiro/util/ShiroUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware11-shiro-auth/src/main/java/com/boot/shiro/util/ShiroUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware11-shiro-auth/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ware11-shiro-auth/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware11-shiro-auth/src/main/resources/mapper/SysMenuMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ware11-shiro-auth/src/main/resources/mapper/SysMenuMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware11-shiro-auth/src/main/resources/mapper/SysUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ware11-shiro-auth/src/main/resources/mapper/SysUserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware11-shiro-auth/src/main/resources/shiro.sql" beforeDir="false" afterPath="$PROJECT_DIR$/ware11-shiro-auth/src/main/resources/shiro.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware12-security-auth/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ware12-security-auth/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware12-security-auth/src/main/java/com/security/auth/SecurityApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware12-security-auth/src/main/java/com/security/auth/SecurityApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware12-security-auth/src/main/java/com/security/auth/config/DruidConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware12-security-auth/src/main/java/com/security/auth/config/DruidConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware12-security-auth/src/main/java/com/security/auth/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware12-security-auth/src/main/java/com/security/auth/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware12-security-auth/src/main/java/com/security/auth/config/UserDetailServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware12-security-auth/src/main/java/com/security/auth/config/UserDetailServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware12-security-auth/src/main/java/com/security/auth/controller/PageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware12-security-auth/src/main/java/com/security/auth/controller/PageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware12-security-auth/src/main/java/com/security/auth/entity/UserRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware12-security-auth/src/main/java/com/security/auth/entity/UserRole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware12-security-auth/src/main/java/com/security/auth/mapper/UserRoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware12-security-auth/src/main/java/com/security/auth/mapper/UserRoleMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware12-security-auth/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ware12-security-auth/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware12-security-auth/src/main/resources/mapper/UserRoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ware12-security-auth/src/main/resources/mapper/UserRoleMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware12-security-auth/src/main/resources/security.sql" beforeDir="false" afterPath="$PROJECT_DIR$/ware12-security-auth/src/main/resources/security.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware12-security-auth/src/main/resources/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/ware12-security-auth/src/main/resources/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware12-security-auth/src/main/resources/templates/pages/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/ware12-security-auth/src/main/resources/templates/pages/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware12-security-auth/src/main/resources/templates/pages/page1/one1.html" beforeDir="false" afterPath="$PROJECT_DIR$/ware12-security-auth/src/main/resources/templates/pages/page1/one1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware12-security-auth/src/main/resources/templates/pages/page1/one2.html" beforeDir="false" afterPath="$PROJECT_DIR$/ware12-security-auth/src/main/resources/templates/pages/page1/one2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware12-security-auth/src/main/resources/templates/pages/page1/one3.html" beforeDir="false" afterPath="$PROJECT_DIR$/ware12-security-auth/src/main/resources/templates/pages/page1/one3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware12-security-auth/src/main/resources/templates/pages/page2/one1.html" beforeDir="false" afterPath="$PROJECT_DIR$/ware12-security-auth/src/main/resources/templates/pages/page2/one1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware12-security-auth/src/main/resources/templates/pages/page2/one2.html" beforeDir="false" afterPath="$PROJECT_DIR$/ware12-security-auth/src/main/resources/templates/pages/page2/one2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware12-security-auth/src/main/resources/templates/pages/page2/one3.html" beforeDir="false" afterPath="$PROJECT_DIR$/ware12-security-auth/src/main/resources/templates/pages/page2/one3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware12-security-auth/src/main/resources/templates/pages/page3/one1.html" beforeDir="false" afterPath="$PROJECT_DIR$/ware12-security-auth/src/main/resources/templates/pages/page3/one1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware12-security-auth/src/main/resources/templates/pages/page3/one2.html" beforeDir="false" afterPath="$PROJECT_DIR$/ware12-security-auth/src/main/resources/templates/pages/page3/one2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware12-security-auth/src/main/resources/templates/pages/page3/one3.html" beforeDir="false" afterPath="$PROJECT_DIR$/ware12-security-auth/src/main/resources/templates/pages/page3/one3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware13-click-house/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ware13-click-house/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware13-click-house/src/main/java/com/click/house/Application7016.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware13-click-house/src/main/java/com/click/house/Application7016.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware13-click-house/src/main/java/com/click/house/config/DruidConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware13-click-house/src/main/java/com/click/house/config/DruidConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware13-click-house/src/main/java/com/click/house/config/JdbcParamConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware13-click-house/src/main/java/com/click/house/config/JdbcParamConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware13-click-house/src/main/java/com/click/house/controller/UserInfoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware13-click-house/src/main/java/com/click/house/controller/UserInfoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware13-click-house/src/main/java/com/click/house/entity/UserInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware13-click-house/src/main/java/com/click/house/entity/UserInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware13-click-house/src/main/java/com/click/house/mapper/UserInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware13-click-house/src/main/java/com/click/house/mapper/UserInfoMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware13-click-house/src/main/java/com/click/house/service/UserInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware13-click-house/src/main/java/com/click/house/service/UserInfoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware13-click-house/src/main/java/com/click/house/service/impl/UserInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware13-click-house/src/main/java/com/click/house/service/impl/UserInfoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware13-click-house/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ware13-click-house/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware13-click-house/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ware13-click-house/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware13-click-house/src/main/resources/mapper/UserInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ware13-click-house/src/main/resources/mapper/UserInfoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware13-click-house/src/main/resources/user-info.sql" beforeDir="false" afterPath="$PROJECT_DIR$/ware13-click-house/src/main/resources/user-info.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware14-drool-rule/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ware14-drool-rule/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware14-drool-rule/src/main/java/com/drool/engine/Application7015.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware14-drool-rule/src/main/java/com/drool/engine/Application7015.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware14-drool-rule/src/main/java/com/drool/engine/config/DruidConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware14-drool-rule/src/main/java/com/drool/engine/config/DruidConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware14-drool-rule/src/main/java/com/drool/engine/config/RuleEngineConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware14-drool-rule/src/main/java/com/drool/engine/config/RuleEngineConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware14-drool-rule/src/main/java/com/drool/engine/config/SpringContextUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware14-drool-rule/src/main/java/com/drool/engine/config/SpringContextUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware14-drool-rule/src/main/java/com/drool/engine/controller/RuleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware14-drool-rule/src/main/java/com/drool/engine/controller/RuleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware14-drool-rule/src/main/java/com/drool/engine/entity/ParamInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware14-drool-rule/src/main/java/com/drool/engine/entity/ParamInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware14-drool-rule/src/main/java/com/drool/engine/entity/QueryParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware14-drool-rule/src/main/java/com/drool/engine/entity/QueryParam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware14-drool-rule/src/main/java/com/drool/engine/entity/RuleResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware14-drool-rule/src/main/java/com/drool/engine/entity/RuleResult.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware14-drool-rule/src/main/java/com/drool/engine/mapper/ParamInfoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware14-drool-rule/src/main/java/com/drool/engine/mapper/ParamInfoMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware14-drool-rule/src/main/java/com/drool/engine/service/ParamInfoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware14-drool-rule/src/main/java/com/drool/engine/service/ParamInfoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware14-drool-rule/src/main/java/com/drool/engine/service/RuleEngineService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware14-drool-rule/src/main/java/com/drool/engine/service/RuleEngineService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware14-drool-rule/src/main/java/com/drool/engine/service/impl/ParamInfoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware14-drool-rule/src/main/java/com/drool/engine/service/impl/ParamInfoServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware14-drool-rule/src/main/java/com/drool/engine/service/impl/RuleEngineServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware14-drool-rule/src/main/java/com/drool/engine/service/impl/RuleEngineServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware14-drool-rule/src/main/resources/META-INF/kmodule.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ware14-drool-rule/src/main/resources/META-INF/kmodule.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware14-drool-rule/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ware14-drool-rule/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware14-drool-rule/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ware14-drool-rule/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware14-drool-rule/src/main/resources/droolRule/param-check-one.drl" beforeDir="false" afterPath="$PROJECT_DIR$/ware14-drool-rule/src/main/resources/droolRule/param-check-one.drl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware14-drool-rule/src/main/resources/droolRule/param-check-two.drl" beforeDir="false" afterPath="$PROJECT_DIR$/ware14-drool-rule/src/main/resources/droolRule/param-check-two.drl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware14-drool-rule/src/main/resources/mapper/ParamInfoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ware14-drool-rule/src/main/resources/mapper/ParamInfoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware15-plus-batis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ware15-plus-batis/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware15-plus-batis/src/main/java/com/plus/batis/Application7014.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware15-plus-batis/src/main/java/com/plus/batis/Application7014.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware15-plus-batis/src/main/java/com/plus/batis/config/DruidConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware15-plus-batis/src/main/java/com/plus/batis/config/DruidConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware15-plus-batis/src/main/java/com/plus/batis/controller/UserBaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware15-plus-batis/src/main/java/com/plus/batis/controller/UserBaseController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware15-plus-batis/src/main/java/com/plus/batis/entity/BaseParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware15-plus-batis/src/main/java/com/plus/batis/entity/BaseParam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware15-plus-batis/src/main/java/com/plus/batis/entity/QueryParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware15-plus-batis/src/main/java/com/plus/batis/entity/QueryParam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware15-plus-batis/src/main/java/com/plus/batis/entity/UserBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware15-plus-batis/src/main/java/com/plus/batis/entity/UserBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware15-plus-batis/src/main/java/com/plus/batis/entity/UserBaseExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware15-plus-batis/src/main/java/com/plus/batis/entity/UserBaseExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware15-plus-batis/src/main/java/com/plus/batis/mapper/UserBaseMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware15-plus-batis/src/main/java/com/plus/batis/mapper/UserBaseMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware15-plus-batis/src/main/java/com/plus/batis/service/UserBaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware15-plus-batis/src/main/java/com/plus/batis/service/UserBaseService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware15-plus-batis/src/main/java/com/plus/batis/service/impl/UserBaseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware15-plus-batis/src/main/java/com/plus/batis/service/impl/UserBaseServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware15-plus-batis/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ware15-plus-batis/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware15-plus-batis/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ware15-plus-batis/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware15-plus-batis/src/main/resources/mapper/UserBaseMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ware15-plus-batis/src/main/resources/mapper/UserBaseMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware15-source-data/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ware15-source-data/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware15-source-data/src/main/java/com/data/source/Application7013.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware15-source-data/src/main/java/com/data/source/Application7013.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware15-source-data/src/main/java/com/data/source/config/DruidOneConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware15-source-data/src/main/java/com/data/source/config/DruidOneConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware15-source-data/src/main/java/com/data/source/config/DruidOneParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware15-source-data/src/main/java/com/data/source/config/DruidOneParam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware15-source-data/src/main/java/com/data/source/config/DruidTwoConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware15-source-data/src/main/java/com/data/source/config/DruidTwoConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware15-source-data/src/main/java/com/data/source/config/DruidTwoParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware15-source-data/src/main/java/com/data/source/config/DruidTwoParam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware15-source-data/src/main/java/com/data/source/controller/DataController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware15-source-data/src/main/java/com/data/source/controller/DataController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware15-source-data/src/main/java/com/data/source/entity/AdminUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware15-source-data/src/main/java/com/data/source/entity/AdminUser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware15-source-data/src/main/java/com/data/source/entity/AdminUserExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware15-source-data/src/main/java/com/data/source/entity/AdminUserExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware15-source-data/src/main/java/com/data/source/entity/UserBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware15-source-data/src/main/java/com/data/source/entity/UserBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware15-source-data/src/main/java/com/data/source/entity/UserBaseExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware15-source-data/src/main/java/com/data/source/entity/UserBaseExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware15-source-data/src/main/java/com/data/source/mapper/one/AdminUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware15-source-data/src/main/java/com/data/source/mapper/one/AdminUserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware15-source-data/src/main/java/com/data/source/mapper/two/UserBaseMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware15-source-data/src/main/java/com/data/source/mapper/two/UserBaseMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware15-source-data/src/main/java/com/data/source/service/AdminUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware15-source-data/src/main/java/com/data/source/service/AdminUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware15-source-data/src/main/java/com/data/source/service/UserBaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware15-source-data/src/main/java/com/data/source/service/UserBaseService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware15-source-data/src/main/java/com/data/source/service/impl/AdminUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware15-source-data/src/main/java/com/data/source/service/impl/AdminUserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware15-source-data/src/main/java/com/data/source/service/impl/UserBaseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware15-source-data/src/main/java/com/data/source/service/impl/UserBaseServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware15-source-data/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ware15-source-data/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware15-source-data/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ware15-source-data/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware15-source-data/src/main/resources/dataOneMapper/AdminUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ware15-source-data/src/main/resources/dataOneMapper/AdminUserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware15-source-data/src/main/resources/dataTwoMapper/UserBaseMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ware15-source-data/src/main/resources/dataTwoMapper/UserBaseMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware16-zoo-keeper/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ware16-zoo-keeper/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware16-zoo-keeper/src/main/java/com/zoo/keeper/Application7016.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware16-zoo-keeper/src/main/java/com/zoo/keeper/Application7016.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware16-zoo-keeper/src/main/java/com/zoo/keeper/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware16-zoo-keeper/src/main/java/com/zoo/keeper/config/SwaggerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware16-zoo-keeper/src/main/java/com/zoo/keeper/config/ZookeeperConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware16-zoo-keeper/src/main/java/com/zoo/keeper/config/ZookeeperConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware16-zoo-keeper/src/main/java/com/zoo/keeper/config/ZookeeperParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware16-zoo-keeper/src/main/java/com/zoo/keeper/config/ZookeeperParam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware16-zoo-keeper/src/main/java/com/zoo/keeper/controller/ZookeeperApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware16-zoo-keeper/src/main/java/com/zoo/keeper/controller/ZookeeperApi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware16-zoo-keeper/src/main/java/com/zoo/keeper/service/ZookeeperService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware16-zoo-keeper/src/main/java/com/zoo/keeper/service/ZookeeperService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware16-zoo-keeper/src/main/java/com/zoo/keeper/service/impl/ZookeeperServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware16-zoo-keeper/src/main/java/com/zoo/keeper/service/impl/ZookeeperServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware16-zoo-keeper/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ware16-zoo-keeper/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware16-zoo-keeper/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ware16-zoo-keeper/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware17-regist-nacos/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ware17-regist-nacos/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware17-regist-nacos/src/main/java/com/regist/nacos/Application7017.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware17-regist-nacos/src/main/java/com/regist/nacos/Application7017.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware17-regist-nacos/src/main/java/com/regist/nacos/config/NacosConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware17-regist-nacos/src/main/java/com/regist/nacos/config/NacosConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware17-regist-nacos/src/main/java/com/regist/nacos/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware17-regist-nacos/src/main/java/com/regist/nacos/config/SwaggerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware17-regist-nacos/src/main/java/com/regist/nacos/controller/NacosController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware17-regist-nacos/src/main/java/com/regist/nacos/controller/NacosController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware17-regist-nacos/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ware17-regist-nacos/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware17-regist-nacos/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ware17-regist-nacos/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware18-file-parent/case-file-type/project-cf-new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ware18-file-parent/case-file-type/project-cf-new.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware18-file-parent/file01-excel-manage/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ware18-file-parent/file01-excel-manage/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware18-file-parent/file02-pdf-manage/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ware18-file-parent/file02-pdf-manage/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware18-file-parent/file03-xml-manage/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ware18-file-parent/file03-xml-manage/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware18-file-parent/file04-csv-manage/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ware18-file-parent/file04-csv-manage/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware18-file-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ware18-file-parent/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware19-kafka-parent/kafka-consumer-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ware19-kafka-parent/kafka-consumer-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware19-kafka-parent/kafka-consumer-server/src/main/java/com/kafka/consumer/Application1902.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware19-kafka-parent/kafka-consumer-server/src/main/java/com/kafka/consumer/Application1902.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware19-kafka-parent/kafka-consumer-server/src/main/java/com/kafka/consumer/receive/ConsumerMsg.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware19-kafka-parent/kafka-consumer-server/src/main/java/com/kafka/consumer/receive/ConsumerMsg.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware19-kafka-parent/kafka-consumer-server/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ware19-kafka-parent/kafka-consumer-server/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware19-kafka-parent/kafka-consumer-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ware19-kafka-parent/kafka-consumer-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware19-kafka-parent/kafka-producer-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ware19-kafka-parent/kafka-producer-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware19-kafka-parent/kafka-producer-server/src/main/java/com/kafka/producer/Application1901.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware19-kafka-parent/kafka-producer-server/src/main/java/com/kafka/producer/Application1901.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware19-kafka-parent/kafka-producer-server/src/main/java/com/kafka/producer/entity/MsgLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware19-kafka-parent/kafka-producer-server/src/main/java/com/kafka/producer/entity/MsgLog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware19-kafka-parent/kafka-producer-server/src/main/java/com/kafka/producer/web/ProducerWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware19-kafka-parent/kafka-producer-server/src/main/java/com/kafka/producer/web/ProducerWeb.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware19-kafka-parent/kafka-producer-server/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ware19-kafka-parent/kafka-producer-server/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware19-kafka-parent/kafka-producer-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ware19-kafka-parent/kafka-producer-server/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware19-kafka-parent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ware19-kafka-parent/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware20-elastic-job/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ware20-elastic-job/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware20-elastic-job/src/main/java/com/elastic/job/ElasticJobApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware20-elastic-job/src/main/java/com/elastic/job/ElasticJobApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware20-elastic-job/src/main/java/com/elastic/job/annotation/TaskJobSign.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware20-elastic-job/src/main/java/com/elastic/job/annotation/TaskJobSign.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware20-elastic-job/src/main/java/com/elastic/job/config/ElasticJobConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware20-elastic-job/src/main/java/com/elastic/job/config/ElasticJobConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware20-elastic-job/src/main/java/com/elastic/job/config/InitZookeeper.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware20-elastic-job/src/main/java/com/elastic/job/config/InitZookeeper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware20-elastic-job/src/main/java/com/elastic/job/config/TaskJobListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware20-elastic-job/src/main/java/com/elastic/job/config/TaskJobListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware20-elastic-job/src/main/java/com/elastic/job/controller/TaskJobController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware20-elastic-job/src/main/java/com/elastic/job/controller/TaskJobController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware20-elastic-job/src/main/java/com/elastic/job/service/TaskJobService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware20-elastic-job/src/main/java/com/elastic/job/service/TaskJobService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware20-elastic-job/src/main/java/com/elastic/job/taskjob/GetTimeJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware20-elastic-job/src/main/java/com/elastic/job/taskjob/GetTimeJob.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware20-elastic-job/src/main/java/com/elastic/job/taskjob/HelloJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/ware20-elastic-job/src/main/java/com/elastic/job/taskjob/HelloJob.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware20-elastic-job/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ware20-elastic-job/src/main/resources/application-dev.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ware20-elastic-job/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ware20-elastic-job/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/ware17-regist-nacos/target/" />
@@ -352,11 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ware14-drool-rule/src/main/resources/droolRule/age.drl">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="315">
-              <caret line="21" column="75" lean-forward="true" selection-start-line="21" selection-start-column="75" selection-end-line="21" selection-end-column="75" />
+              <caret line="21" column="75" selection-start-line="21" selection-start-column="75" selection-end-line="21" selection-end-column="75" />
             </state>
           </provider>
         </entry>
@@ -370,11 +76,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ware14-drool-rule/src/main/java/com/drool/engine/service/ParamInfoService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ware14-drool-rule/src/main/java/com/drool/engine/service/DroolsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="49" column="58" selection-start-line="49" selection-start-column="58" selection-end-line="49" selection-end-column="58" />
+            <state relative-caret-position="333">
+              <caret line="62" column="33" lean-forward="true" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -574,16 +289,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1588147542752</updated>
-      <workItem from="1588147543966" duration="1614000" />
+      <workItem from="1588147543966" duration="2123000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1614000" />
+    <option name="totallyTimeSpent" value="2123000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -594,7 +308,7 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1905016" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" weight="0.48910674" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.25490198" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Messages" weight="0.32897604" />
@@ -604,7 +318,7 @@
       <window_info anchor="bottom" id="MyBatis Log" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37363833" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.37363833" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.416122" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -729,17 +443,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ware14-drool-rule/src/main/resources/droolRule/age.drl">
+    <entry file="file://$PROJECT_DIR$/ware14-drool-rule/src/main/java/com/drool/engine/service/ParamInfoService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="75" lean-forward="true" selection-start-line="21" selection-start-column="75" selection-end-line="21" selection-end-column="75" />
+        <state relative-caret-position="60">
+          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ware14-drool-rule/src/main/java/com/drool/engine/service/DroolsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="49" column="58" selection-start-line="49" selection-start-column="58" selection-end-line="49" selection-end-column="58" />
+        <state relative-caret-position="333">
+          <caret line="62" column="33" lean-forward="true" selection-start-line="62" selection-start-column="33" selection-end-line="62" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ware14-drool-rule/src/main/resources/droolRule/age.drl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="75" selection-start-line="21" selection-start-column="75" selection-end-line="21" selection-end-column="75" />
         </state>
       </provider>
     </entry>

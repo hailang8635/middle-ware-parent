@@ -2,3 +2,6 @@
 .idea/*
 */target/*
 *.iml
+*.class
+*.jar
+.idea/workspace.xml
