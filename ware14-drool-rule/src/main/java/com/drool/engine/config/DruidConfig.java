@@ -12,10 +12,10 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import javax.sql.DataSource;
 
-@Configuration
+//@Configuration
 public class DruidConfig {
     private static final Logger logger = LoggerFactory.getLogger(DruidConfig.class);
-    @Value("${spring.datasource.druid.url}")
+    @Value("${spring.datasource.druid.url:}")
     private String dbUrl;
     @Value("${spring.datasource.druid.username}")
     private String username;

@@ -1,0 +1,15 @@
+package droolsexample
+import com.drool.engine.entity.ItemCity;
+import java.math.BigDecimal;
+
+rule "Pune Medicine Item"
+    when item : ItemCity (purchaseCity == ItemCity.City.PUNE, typeofItem == ItemCity.Type.MEDICINES)
+    then BigDecimal tax = new BigDecimal(0.03);
+        item.setLocalTax(tax.multiply(item.getSellPrice()));
+end
+
+rule "Pune Groceries Item"
+    when item : ItemCity(purchaseCity == ItemCity.City.PUNE, typeofItem == ItemCity.Type.GROCERIES)
+    then BigDecimal tax = new BigDecimal(0.2);
+        item.setLocalTax(tax.multiply(item.getSellPrice()));
+end

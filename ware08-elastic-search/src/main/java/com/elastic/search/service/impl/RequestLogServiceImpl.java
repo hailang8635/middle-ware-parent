@@ -8,10 +8,7 @@ import org.elasticsearch.index.query.*;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 import javax.annotation.Resource;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.List;
-import java.util.Optional;
+import java.util.*;
 
 @Service
 public class RequestLogServiceImpl implements RequestLogService {
@@ -54,8 +51,9 @@ public class RequestLogServiceImpl implements RequestLogService {
         // 用户名倒序
         // Sort sort = new Sort(Sort.Direction.DESC,"userName.keyword") ;
         // 创建时间正序
-        Sort sort = new Sort(Sort.Direction.ASC,"createTime.keyword") ;
-        return requestLogRepository.findAll(sort) ;
+//        Sort sort = new Sort(Sort.Direction.ASC, Arrays.asList("createTime.keyword"));
+//        return requestLogRepository.findAll(sort) ;
+        return requestLogRepository.findAll();
     }
 
     @Override

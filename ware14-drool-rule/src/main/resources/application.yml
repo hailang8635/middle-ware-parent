@@ -2,9 +2,11 @@ server:
   tomcat:
     uri-encoding: UTF-8
   port: 7015
+
 spring:
   profiles:
     active: dev
+  abc: 111
   application:
     name: ware-drool-rule
   http:

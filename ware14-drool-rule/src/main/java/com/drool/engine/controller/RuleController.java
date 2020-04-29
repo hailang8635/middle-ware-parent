@@ -4,8 +4,12 @@ import com.drool.engine.entity.QueryParam;
 import com.drool.engine.entity.RuleResult;
 import com.drool.engine.service.RuleEngineService;
 import org.kie.api.runtime.KieSession;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
+
+import javax.annotation.PostConstruct;
 import javax.annotation.Resource;
 
 @RestController
@@ -17,7 +21,7 @@ public class RuleController {
     @Resource
     private RuleEngineService ruleEngineService ;
 
-    @RequestMapping("/param")
+    @RequestMapping(value = "/param", method = {RequestMethod.GET})
     public void param (){
         QueryParam queryParam1 = new QueryParam() ;
         queryParam1.setParamId("1");
@@ -34,5 +38,13 @@ public class RuleController {
         RuleResult resultParam = new RuleResult() ;
         kieSession.insert(resultParam) ;
         kieSession.fireAllRules() ;
+    }
+
+    @Value("${spring.abc:1}")
+    private String dbUrl;
+
+    @PostConstruct
+    public void test() {
+        System.out.println(dbUrl);
     }
 }
