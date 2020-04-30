@@ -13,8 +13,8 @@ import javax.annotation.PostConstruct;
 import javax.annotation.Resource;
 
 @RestController
-@RequestMapping("/rule")
-public class RuleController {
+@RequestMapping("/demo/drools")
+public class DroolsDemoController {
 
     @Resource
     private KieSession kieSession;
@@ -45,6 +45,6 @@ public class RuleController {
 
     @PostConstruct
     public void test() {
-        System.out.println(dbUrl);
+//        System.out.println(dbUrl);
     }
 }

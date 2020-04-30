@@ -1,6 +1,5 @@
 package com.drool.engine.service;
 
-import com.alibaba.fastjson.JSONObject;
 import com.drool.engine.entity.ItemCity;
 import com.drool.engine.entity.Person;
 import org.kie.api.KieServices;
@@ -45,9 +44,9 @@ public class DroolsTest {
         kieSession.insert(person3);
         kieSession.fireAllRules();
 
-        System.out.println(JSONObject.toJSONString(person));
-        System.out.println(JSONObject.toJSONString(person2));
-        System.out.println(JSONObject.toJSONString(person3));
+//        System.out.println(JSONObject.toJSONString(person));
+//        System.out.println(JSONObject.toJSONString(person2));
+//        System.out.println(JSONObject.toJSONString(person3));
         kieSession.dispose();
     }
 
@@ -71,12 +70,12 @@ public class DroolsTest {
         kieSession.insert(item6);
 
         kieSession.fireAllRules();
-        System.out.println(JSONObject.toJSONString(item1));
-        System.out.println(JSONObject.toJSONString(item2));
-        System.out.println(JSONObject.toJSONString(item3));
-        System.out.println(JSONObject.toJSONString(item4));
-        System.out.println(JSONObject.toJSONString(item5));
-        System.out.println(JSONObject.toJSONString(item6));
+//        System.out.println(JSONObject.toJSONString(item1));
+//        System.out.println(JSONObject.toJSONString(item2));
+//        System.out.println(JSONObject.toJSONString(item3));
+//        System.out.println(JSONObject.toJSONString(item4));
+//        System.out.println(JSONObject.toJSONString(item5));
+//        System.out.println(JSONObject.toJSONString(item6));
 
 
 

@@ -1,0 +1,23 @@
+version: '2'
+services:
+  drools-workbench:
+    image: jboss/drools-workbench-showcase:latest
+    ports:
+      - "8101:8001"
+      - "8102:8080"
+    networks:
+      - "netNameRuleEngine"
+    volumes:
+      - /opt/jrdn/rule-engine/repository/:/opt/jboss/.m2/repository
+    restart: always
+  reports-web-api:
+    image: jboss/kie-server-showcase:latest
+    ports:
+      - "8103:8080"
+    networks:
+      - "netNameRuleEngine"
+    restart: always
+networks:
+  netNameRuleEngine:
+    driver: bridge
+
