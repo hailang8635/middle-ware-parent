@@ -2,7 +2,6 @@ spring:
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
     druid:
-      driverClassName: com.mysql.cj.jdbc.Driver
       driver-class-name: com.mysql.cj.jdbc.Driver
       url: jdbc:mysql://112.65.210.194:443/outdb?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai
       username: msp
@@ -34,3 +33,6 @@ kie-server:
   password: admin
   kie-container-id: demo-smart
   session-id: session2
+
+swagger:
+  enable: true

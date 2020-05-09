@@ -10,10 +10,17 @@ services:
     volumes:
       - /opt/jrdn/rule-engine/repository/:/opt/jboss/.m2/repository
     restart: always
-  reports-web-api:
+  kie-server:
     image: jboss/kie-server-showcase:latest
     ports:
       - "8103:8080"
+    networks:
+      - "netNameRuleEngine"
+    restart: always
+  drool-rule:
+    image: registry.cn-shanghai.aliyuncs.com/jrdn/drool-rule:0.0.1-SNAPSHOT
+    ports:
+      - "8104:8080"
     networks:
       - "netNameRuleEngine"
     restart: always

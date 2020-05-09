@@ -15,7 +15,7 @@
 
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.drool.rule</groupId>
-    <artifactId>ware14-drool-rule</artifactId>
+    <artifactId>drool-rule</artifactId>
     <packaging>jar</packaging>
 
     <properties>
